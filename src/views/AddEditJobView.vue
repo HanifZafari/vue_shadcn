@@ -40,11 +40,23 @@ const formSchema = toTypedSchema(
   })
 )
 
-const defaultValues = ref({
-  jobType: '',
+interface JobDetails {
+  jobType: 'full-time' | 'part-time' | 'internship' | 'remote'
+  jobName: string
+  jobDescription: string
+  salary: '$50k-$100k' | '$100k-$150k' | '$150k-$200k' | '$200+'
+  location: string
+  companyName: string
+  companyDescription: string
+  email: string
+  phone?: string
+}
+
+const defaultValues = ref<Partial<JobDetails>>({
+  jobType: 'full-time',
   jobName: '',
   jobDescription: '',
-  salary: '',
+  salary: '$50k-$100k',
   location: '',
   companyName: '',
   companyDescription: '',
@@ -54,7 +66,7 @@ const defaultValues = ref({
 
 const { handleSubmit, setValues } = useForm({
   validationSchema: formSchema,
-  initialValues: defaultValues
+  initialValues: defaultValues.value
 })
 
 onMounted(async () => {
