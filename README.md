@@ -1,39 +1,34 @@
-# vue_wBrad
+# Vue Project with ShadCN and Tailwind CSS
 
-This template should help get you started developing with Vue 3 in Vite.
+This Vue.js application uses [ShadCN Vue](https://www.shadcn-vue.com/) and [Tailwind CSS](https://tailwindcss.com/) for styling and includes full CRUD functionality for job management.
 
-## Recommended IDE Setup
+- **ShadCN For Vue**: A set of UI components designed for use with Vue.js, providing a modern and customizable design system.
+- **Tailwind CSS**: A utility-first CSS framework that allows for rapid and responsive design by applying utility classes directly in the HTML.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The project uses [JSON Server](https://github.com/typicode/json-server) to provide a simple backend with CRUD endpoints.
 
-## Type Support for `.vue` Imports in TS
+## Instructions to Run
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Install Dependencies
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run JSON Server for backend
 
-```sh
+The JSON Server uses `src/data.json` to provide job data through API endpoints on <http://localhost:4777>
+
+```bash
+npm run server
+```
+
+### Run Vite Frontend
+
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Inspiration
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+This project was inspired by [Brad Traversy’s YouTube video](https://www.youtube.com/watch?v=VeNfHj6MhgA). After seeing the video, I decided to create my own version using ShadCN and Vue.js. I wanted to explore these technologies and put my spin on the concept presented.
