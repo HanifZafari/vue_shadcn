@@ -95,11 +95,11 @@ onMounted(async () => {
   <Breadcrumb v-if="!isError" class="container pt-10">
     <BreadcrumbList>
       <BreadcrumbItem>
-        <BreadcrumbLink href="/"> Home </BreadcrumbLink>
+        <router-link to="/">Home</router-link>
       </BreadcrumbItem>
       <BreadcrumbSeparator />
       <BreadcrumbItem>
-        <BreadcrumbLink href="/Jobs"> Jobs </BreadcrumbLink>
+        <router-link to="/jobs">Jobs</router-link>
       </BreadcrumbItem>
       <BreadcrumbSeparator />
       <BreadcrumbItem>
