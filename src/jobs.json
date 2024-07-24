@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "title": "Amos Gonzales",
+      "type": "full-time",
+      "description": "In architecto vel no",
+      "location": "Eveniet natus iure ",
+      "salary": "$200+",
+      "company": {
+        "name": "Vinson Buckley Trading",
+        "description": "Hic dolorum enim a a",
+        "contactEmail": "kovevoriz@mailinator.com",
+        "contactPhone": ""
+      },
+      "id": "09fd"
+    },
+    {
+      "title": "Steven Hood",
+      "type": "full-time",
+      "description": "Iure aspernatur prov",
+      "location": "Dolores qui aut cons",
+      "salary": "$50k-$100k",
+      "company": {
+        "name": "Howe Henry Traders",
+        "description": "Ea magni illum accu",
+        "contactEmail": "cujaqycudu@mailinator.com",
+        "contactPhone": ""
+      },
+      "id": "ebe4"
+    },
+    {
+      "id": "9c82",
+      "title": "Fredericka Mullins",
+      "type": "part-time",
+      "description": "Laborum accusantium ",
+      "location": "Architecto rerum ut ",
+      "salary": "$150k-$200k",
+      "company": {
+        "name": "Marquez Roman Traders",
+        "description": "Ea consectetur ab e",
+        "contactEmail": "rivosi@mailinator.com",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "88a7",
+      "title": "Backend Dev (C++)",
+      "type": "part-time",
+      "description": "24 Years of experience with C++",
+      "location": "Sydney",
+      "salary": "$200+",
+      "company": {
+        "name": "Sydney C++",
+        "description": "We engage C++",
+        "contactEmail": "hanifzafari@gmail.com",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "20a6",
+      "title": "Rigel Hutchinson",
+      "type": "full-time",
+      "description": "Commodo molestias ex",
+      "location": "Saepe perferendis an",
+      "salary": "$50k-$100k",
+      "company": {
+        "name": "Frye Dudley Trading",
+        "description": "Officiis qui numquam",
+        "contactEmail": "tyhijovy@mailinator.com",
+        "contactPhone": "+1 (669) 948-8761"
+      }
+    },
+    {
+      "id": "5150",
+      "title": "Vue Developer",
+      "type": "part-time",
+      "description": "Requiring a good job",
+      "location": "Porro quasi possimus",
+      "salary": "$100k-$150k",
+      "company": {
+        "name": "Stewart Hartman Inc",
+        "description": "We do everything, come and find out",
+        "contactEmail": "hanifzafari@gmail.com",
+        "contactPhone": ""
+      }
+    }
+  ]
+}
