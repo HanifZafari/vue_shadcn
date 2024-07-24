@@ -7,6 +7,8 @@ This Vue.js application uses [ShadCN Vue](https://www.shadcn-vue.com/) and [Tail
 
 The project uses [JSON Server](https://github.com/typicode/json-server) to provide a simple backend with CRUD endpoints.
 
+![Homepage](/public/home.jpg)
+
 ## Instructions to Run
 
 ### Install Dependencies
