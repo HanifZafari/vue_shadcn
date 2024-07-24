@@ -75,10 +75,10 @@ onMounted(async () => {
       const res = await fetch(`http://localhost:4777/jobs/${jobId}`)
       const job = await res.json()
       setValues({
-        jobType: job.type,
+        jobType: job.type as JobDetails['jobType'],
         jobName: job.title,
         jobDescription: job.description,
-        salary: job.salary,
+        salary: job.salary as JobDetails['salary'],
         location: job.location,
         companyName: job.company.name,
         companyDescription: job.company.description,
